@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+ /* the above are used by sprockets to include proper files
+
+ */
