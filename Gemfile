@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
-gem 'sass-rails', '5.0.1'
+gem 'sass-rails', '5.0.2'
 gem 'uglifier', '2.5.3'
 gem 'coffee-rails', '4.1.0'
 gem 'jquery-rails', '4.0.3'
