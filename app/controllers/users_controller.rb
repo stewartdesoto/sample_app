@@ -6,6 +6,8 @@ class UsersController < ApplicationController
   def create
   	@user = User.new(user_params)
   	if @user.save
+      log_in @user #in sessionshelper, available through include in applicationshelper
+      #remember(@user) # in sessionshelper
       flash[:success] = "Welcome to Sample App"
   		redirect_to user_path(@user)
   	else
